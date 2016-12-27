@@ -1,4 +1,4 @@
-﻿$group = get-adgroupmember 'SAF-G-PCT.MANAGEMENT_RW'
+﻿$group = get-adgroupmember 'GroupeAD'
 
 $i = 0
 
