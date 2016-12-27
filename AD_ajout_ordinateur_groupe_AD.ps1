@@ -1,5 +1,5 @@
 ﻿$computer_file = Get-Content c:\_admin\_script\AD\liste_computer_ad.txt
-$LogFile = "c:\_admin\_Script\AD\add_user_to_group_log.txt"
+$LogFile = "add_user_to_group_log.txt"
 
 function add_group_function
 {
