@@ -1,4 +1,4 @@
-﻿$groupfile = Get-Content c:\_admin\_script\AD\liste_groupe_PCT.txt
+﻿$groupfile = Get-Content "liste_groupe_PCT.txt"
 
 foreach ($Adgroup in $groupfile)
 {
