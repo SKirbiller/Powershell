@@ -1,5 +1,5 @@
 ﻿$group = "groupe AD"
-$fileUser = Get-Content c:\_admin\_script\AD\liste_remove_ad_group.txt
+$fileUser = Get-Content "liste_remove_ad_group.txt"
 $infoGroup = Get-ADGroup -Identity $group
 
 
